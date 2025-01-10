@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins', sans-serif;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+h2 {
+    font-family: 1.8rem;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+h4 {
+    font-size: 1.1rem;
+    font-weight:600 ;
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #190303;
+}
+h6 {
+    color: #3213bc;
+}
+button {
+    font-size: 0.8rem;
+    font-family: 700;
+    overflow: none;
+    border: none;
+    background-color: #1d1d1d;
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #236468;
+}
+.navbar {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i.active {
+    color: coral;
+}
+.navbar i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+#home {
+    /* background-image: url("ph.jpg");
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+}
+#home span{
+    color: coral;
+}
